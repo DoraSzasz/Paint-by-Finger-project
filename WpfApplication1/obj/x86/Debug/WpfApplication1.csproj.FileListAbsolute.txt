@@ -1,0 +1,10 @@
+E:\C# Projects\vPollock\WpfApplication1\WpfApplication1\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\C# Projects\vPollock\WpfApplication1\WpfApplication1\obj\x86\Debug\ColorChooser.baml
+E:\C# Projects\vPollock\WpfApplication1\WpfApplication1\obj\x86\Debug\App.baml
+E:\C# Projects\vPollock\WpfApplication1\WpfApplication1\obj\x86\Debug\BrushDisplay.g.cs
+E:\C# Projects\vPollock\WpfApplication1\WpfApplication1\obj\x86\Debug\ColorChooser.g.cs
+E:\C# Projects\vPollock\WpfApplication1\WpfApplication1\obj\x86\Debug\MainWindow.g.cs
+E:\C# Projects\vPollock\WpfApplication1\WpfApplication1\obj\x86\Debug\App.g.cs
+E:\C# Projects\vPollock\WpfApplication1\WpfApplication1\obj\x86\Debug\GeneratedInternalTypeHelper.g.cs
+E:\C# Projects\vPollock\WpfApplication1\WpfApplication1\obj\x86\Debug\WpfApplication1_MarkupCompile.cache
+E:\C# Projects\vPollock\WpfApplication1\WpfApplication1\obj\x86\Debug\WpfApplication1_MarkupCompile.lref

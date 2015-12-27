@@ -1,0 +1,37 @@
+﻿<Application x:Class="WpfApplication1.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary x:Key="TexturedBrushes">
+                <ImageBrush x:Key="Ice" ImageSource="Images\Deep-Freeze.jpg" Stretch="None" TileMode="FlipXY"  Viewport="0,0,256,256" ViewportUnits="Absolute"  />
+                <ImageBrush x:Key="Snow" ImageSource="Images\snowyMud.jpg" Stretch="None" TileMode="FlipXY"  Viewport="0,0,256,256" ViewportUnits="Absolute"  />
+                <ImageBrush x:Key="Clouds" ImageSource="Images\clouds.jpg" Stretch="None" TileMode="FlipXY"  Viewport="0,0,256,256" ViewportUnits="Absolute"  />
+                <ImageBrush x:Key="Grass" ImageSource="Images\grass.jpg" Stretch="None" TileMode="Tile"  Viewport="0,0,168,113" ViewportUnits="Absolute">
+                    <ImageBrush.Transform>
+                        <ScaleTransform ScaleX="1" ScaleY="1" />
+                    </ImageBrush.Transform>
+                </ImageBrush>
+                <ImageBrush x:Key="Wood" ImageSource="Images\wood.jpg" Stretch="None" TileMode="FlipXY"  Viewport="0,0,64,64" ViewportUnits="Absolute"  />
+            </ResourceDictionary>
+            <ResourceDictionary x:Key="ColorBrushes">
+                <SolidColorBrush x:Key="Red" Color="Red"/>
+                <SolidColorBrush x:Key="Blue" Color="Blue" />
+                <SolidColorBrush x:Key="Black" Color="Black" />
+                <SolidColorBrush x:Key="Orange" Color="Orange" />
+                <SolidColorBrush x:Key="Yellow" Color="Yellow" />
+                <SolidColorBrush x:Key="Green" Color="Green" />
+                <SolidColorBrush x:Key="Purple" Color="Purple" />
+                <SolidColorBrush x:Key="Pink" Color="Pink" />
+            </ResourceDictionary>
+            
+            <Style x:Key="MenuLabel" TargetType="{x:Type Label}">
+                <Setter Property="FontSize" Value="60" />
+                <Setter Property="FontWeight" Value="Bold" />
+                <Setter Property="Foreground" Value="Blue" />
+            </Style>
+        </ResourceDictionary>
+    </Application.Resources>
+
+</Application>
